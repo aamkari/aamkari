@@ -2434,10 +2434,3 @@ transition:all 0.9s ease;
 
 }
 
-.collection-card.show-card{
-
-opacity:1;
-
-transform:translateY(0);
-
-}
