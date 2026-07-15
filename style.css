@@ -2426,9 +2426,9 @@ COLLECTION CARD ANIMATION
 
 .collection-card{
 
-opacity:0;
+opacity:1;
 
-transform:translateY(70px);
+transform:translateY(0);
 
 transition:all 0.9s ease;
 
