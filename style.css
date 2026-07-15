@@ -2428,9 +2428,9 @@ COLLECTION CARD ANIMATION
 
 opacity:1;
 
-transform:translateY(0);
+transform:none;
 
-transition:all 0.9s ease;
+transition:transform 0.35s ease, box-shadow 0.35s ease;
 
 }
 
