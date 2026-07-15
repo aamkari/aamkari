@@ -2420,3 +2420,24 @@ font-size:2.3rem;
 
 }
 
+/*=========================================
+COLLECTION CARD ANIMATION
+=========================================*/
+
+.collection-card{
+
+opacity:0;
+
+transform:translateY(70px);
+
+transition:all 0.9s ease;
+
+}
+
+.collection-card.show-card{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
