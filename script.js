@@ -407,3 +407,34 @@ newsletter.reset();
 
 }
 
+/*==================================================
+SIGNATURE CRAFTS ANIMATION
+==================================================*/
+
+const craftRows = document.querySelectorAll(".craft-row");
+
+const craftObserver = new IntersectionObserver((entries) => {
+
+   entries.forEach((entry) => {
+
+       if (entry.isIntersecting) {
+
+           entry.target.classList.add("show-craft");
+
+           craftObserver.unobserve(entry.target);
+
+       }
+
+   });
+
+}, {
+
+   threshold: 0.2
+
+});
+
+craftRows.forEach((row) => {
+
+   craftObserver.observe(row);
+
+});
