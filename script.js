@@ -365,3 +365,45 @@ console.log(
 END OF SCRIPT
 ==========================================*/
 
+/*==============================
+BACK TO TOP
+==============================*/
+
+const backToTop=document.querySelector(".back-to-top");
+
+if(backToTop){
+
+backToTop.addEventListener("click",()=>{
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+});
+
+}
+
+/*==============================
+NEWSLETTER
+==============================*/
+
+const newsletter=document.querySelector(".newsletter-form");
+
+if(newsletter){
+
+newsletter.addEventListener("submit",(e)=>{
+
+e.preventDefault();
+
+alert("Welcome to the House of AAMKARI.");
+
+newsletter.reset();
+
+});
+
+}
+
