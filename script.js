@@ -439,35 +439,3 @@ craftRows.forEach((row) => {
 
 });
 
-/*=========================================
-COLLECTIONS PAGE ANIMATION
-=========================================*/
-
-const collectionCards = document.querySelectorAll(".collection-card");
-
-const collectionObserver = new IntersectionObserver((entries) => {
-
-   entries.forEach((entry) => {
-
-       if (entry.isIntersecting) {
-
-           entry.target.classList.add("show-card");
-
-           collectionObserver.unobserve(entry.target);
-
-       }
-
-   });
-
-}, {
-
-   threshold: 0.2
-
-});
-
-collectionCards.forEach((card) => {
-
-   collectionObserver.observe(card);
-
-});
-
