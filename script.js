@@ -439,3 +439,24 @@ craftRows.forEach((row) => {
 
 });
 
+/*=========================================
+AAMKARI PRELOADER
+=========================================*/
+
+window.addEventListener("load", () => {
+
+   const preloader = document.getElementById("preloader");
+
+   // Keep the loading screen visible for ~3 seconds
+   setTimeout(() => {
+
+       preloader.classList.add("hide");
+
+       // Remove it completely after the fade-out
+       setTimeout(() => {
+           preloader.remove();
+       }, 1000);
+
+   }, 3000);
+
+});
