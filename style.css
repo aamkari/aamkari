@@ -2899,3 +2899,361 @@ transform:translateY(0);
 }
 
 }
+/*==================================================
+CRAFTSMANSHIP PAGE
+==================================================*/
+
+.craft-hero{
+height:90vh;
+background:url("assets/backgrounds/craft-hero.jpg") center/cover no-repeat;
+position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+overflow:hidden;
+}
+
+.craft-overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.45);
+}
+
+.craft-content{
+position:relative;
+z-index:2;
+color:white;
+max-width:850px;
+padding:20px;
+}
+
+.craft-content span{
+
+display:block;
+
+letter-spacing:5px;
+
+text-transform:uppercase;
+
+color:#D6B16E;
+
+margin-bottom:20px;
+
+font-size:.9rem;
+
+}
+
+.craft-content h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:4.8rem;
+
+font-weight:600;
+
+margin-bottom:30px;
+
+line-height:1.1;
+
+}
+
+.craft-content p{
+
+font-size:1.15rem;
+
+line-height:2;
+
+opacity:.9;
+
+}
+
+
+
+/*==================================================
+INTRO
+==================================================*/
+
+.craft-intro{
+
+display:grid;
+
+grid-template-columns:1fr 2fr;
+
+gap:90px;
+
+padding:130px 10%;
+
+background:#faf8f4;
+
+}
+
+.craft-left h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3.7rem;
+
+color:#1c1c1c;
+
+}
+
+.craft-right p{
+
+font-size:1.08rem;
+
+line-height:2;
+
+margin-bottom:28px;
+
+color:#555;
+
+}
+
+
+
+/*==================================================
+CRAFT BLOCKS
+==================================================*/
+
+.craft-block{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:90px;
+
+align-items:center;
+
+padding:130px 10%;
+
+background:white;
+
+}
+
+.craft-block.reverse{
+
+direction:rtl;
+
+}
+
+.craft-block.reverse>*{
+
+direction:ltr;
+
+}
+
+.craft-image img{
+
+width:100%;
+
+border-radius:10px;
+
+display:block;
+
+box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+transition:.6s;
+
+}
+
+.craft-image img:hover{
+
+transform:scale(1.03);
+
+}
+
+.craft-text h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3.3rem;
+
+line-height:1.2;
+
+margin-bottom:25px;
+
+color:#222;
+
+}
+
+.craft-text p{
+
+line-height:2;
+
+font-size:1.05rem;
+
+color:#666;
+
+}
+
+/*==================================================
+ARTISAN SECTION
+==================================================*/
+
+.artisan-section{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:90px;
+
+padding:130px 10%;
+
+background:#f8f6f2;
+
+align-items:center;
+
+}
+
+.artisan-image img{
+
+width:100%;
+
+border-radius:10px;
+
+display:block;
+
+box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+transition:.5s;
+
+}
+
+.artisan-image img:hover{
+
+transform:scale(1.03);
+
+}
+
+.artisan-content h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:3.3rem;
+
+margin-bottom:25px;
+
+color:#222;
+
+line-height:1.2;
+
+}
+
+.artisan-content p{
+
+font-size:1.05rem;
+
+line-height:2;
+
+color:#666;
+
+}
+
+
+
+/*==================================================
+LUXURY ANIMATIONS
+==================================================*/
+
+.craft-block,
+.artisan-section,
+.craft-intro{
+
+animation:fadeCraft 1.2s ease;
+
+}
+
+@keyframes fadeCraft{
+
+from{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+
+/*==================================================
+RESPONSIVE
+==================================================*/
+
+@media(max-width:1100px){
+
+.craft-intro{
+
+grid-template-columns:1fr;
+
+gap:40px;
+
+}
+
+.craft-block{
+
+grid-template-columns:1fr;
+
+}
+
+.craft-block.reverse{
+
+direction:ltr;
+
+}
+
+.artisan-section{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.craft-hero{
+
+height:70vh;
+
+}
+
+.craft-content h1{
+
+font-size:2.8rem;
+
+}
+
+.craft-intro,
+.craft-block,
+.artisan-section{
+
+padding:80px 30px;
+
+}
+
+.craft-left h2,
+.craft-text h2,
+.artisan-content h2{
+
+font-size:2.5rem;
+
+}
+
+}
+
