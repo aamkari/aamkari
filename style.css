@@ -3257,3 +3257,165 @@ font-size:2.5rem;
 
 }
 
+/*=========================================
+AAMKARI PRELOADER
+=========================================*/
+
+#preloader{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100vh;
+
+background:#F8F5EF;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:99999;
+
+transition:opacity 1s ease, visibility 1s ease;
+
+}
+
+#preloader.hide{
+
+opacity:0;
+
+visibility:hidden;
+
+pointer-events:none;
+
+}
+
+.loader-content{
+
+text-align:center;
+
+animation:loaderFade 2s ease;
+
+}
+
+.loader-logo{
+
+width:140px;
+
+height:auto;
+
+margin-bottom:35px;
+
+animation:logoFloat 2.8s ease-in-out infinite alternate;
+
+}
+
+.loader-content h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:2rem;
+
+font-weight:600;
+
+letter-spacing:4px;
+
+color:#1f1f1f;
+
+margin-bottom:18px;
+
+}
+
+.loader-content p{
+
+font-family:"Inter",sans-serif;
+
+font-size:0.95rem;
+
+letter-spacing:2px;
+
+text-transform:uppercase;
+
+color:#B68A3F;
+
+}
+
+/* Elegant fade */
+
+@keyframes loaderFade{
+
+0%{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* Gentle breathing animation */
+
+@keyframes logoFloat{
+
+0%{
+
+transform:scale(.96);
+
+opacity:.92;
+
+}
+
+100%{
+
+transform:scale(1);
+
+opacity:1;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.loader-logo{
+
+width:100px;
+
+}
+
+.loader-content h2{
+
+font-size:1.35rem;
+
+letter-spacing:2px;
+
+}
+
+.loader-content p{
+
+font-size:.75rem;
+
+letter-spacing:1px;
+
+}
+
+}
+
