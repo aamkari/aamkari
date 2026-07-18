@@ -3773,3 +3773,13 @@ color:#555;
 
 }
 
+.size-btn.active,
+.length-btn.active{
+
+background:#111;
+
+color:white;
+
+border-color:#111;
+
+}
