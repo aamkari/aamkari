@@ -4077,3 +4077,78 @@ color:white;
    font-size:15px;
    line-height:1.8;
 }
+
+/* ===========================
+Crafts Page
+=========================== */
+
+.craft-page{
+
+background:#faf8f3;
+
+padding:150px 10%;
+
+}
+
+.craft-hero{
+
+max-width:900px;
+
+margin:auto;
+
+text-align:center;
+
+margin-bottom:120px;
+
+}
+
+.craft-hero h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:68px;
+
+font-weight:400;
+
+margin:20px 0;
+
+}
+
+.craft-intro{
+
+font-size:18px;
+
+line-height:2;
+
+color:#777;
+
+}
+
+.craft-block{
+
+max-width:900px;
+
+margin:90px auto;
+
+}
+
+.craft-block h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:42px;
+
+margin-bottom:20px;
+
+}
+
+.craft-block p{
+
+font-size:18px;
+
+line-height:2;
+
+color:#666;
+
+}
+
