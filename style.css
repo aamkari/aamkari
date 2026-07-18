@@ -4070,3 +4070,10 @@ background:#111;
 color:white;
 
 }
+
+.footer-column p{
+   margin:12px 0;
+   color:#777;
+   font-size:15px;
+   line-height:1.8;
+}
