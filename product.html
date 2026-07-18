@@ -112,12 +112,12 @@ and finished with delicate hand embroidery.
 
 <div class="sizes">
 
-<button>XS</button>
-<button>S</button>
-<button>M</button>
-<button>L</button>
-<button>XL</button>
-<button>XXL</button>
+<button class="size-btn">XS</button>
+<button class="size-btn">S</button>
+<button class="size-btn">M</button>
+<button class="size-btn">L</button>
+<button class="size-btn">XL</button>
+<button class="size-btn">XXL</button>
 
 </div>
 
@@ -126,9 +126,9 @@ and finished with delicate hand embroidery.
 
 <div class="lengths">
 
-<button>Petite</button>
-<button>Regular</button>
-<button>Tall</button>
+<button class="length-btn">Petite</button>
+<button class="length-btn">Regular</button>
+<button class="length-btn">Tall</button>
 
 </div>
 
@@ -339,6 +339,40 @@ Packed in signature AAMKARI luxury packaging.
 </div>
 
 </section>
+
+<script>
+
+const sizeButtons = document.querySelectorAll('.size-btn');
+
+sizeButtons.forEach(button => {
+
+button.addEventListener('click', () => {
+
+sizeButtons.forEach(btn => btn.classList.remove('active'));
+
+button.classList.add('active');
+
+});
+
+});
+
+const lengthButtons = document.querySelectorAll('.length-btn');
+
+lengthButtons.forEach(button => {
+
+button.addEventListener('click', () => {
+
+lengthButtons.forEach(btn => btn.classList.remove('active'));
+
+button.classList.add('active');
+
+});
+
+});
+
+</script>
+
+
 
 </body>
 
