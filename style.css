@@ -3419,3 +3419,164 @@ letter-spacing:1px;
 
 }
 
+.product-page{
+
+display:flex;
+
+padding:120px 8%;
+
+gap:80px;
+
+align-items:flex-start;
+
+background:#faf8f3;
+
+}
+
+.product-gallery{
+
+flex:1;
+
+}
+
+.main-image img{
+
+width:100%;
+
+border-radius:18px;
+
+}
+
+.thumbnail-gallery{
+
+display:flex;
+
+gap:15px;
+
+margin-top:20px;
+
+}
+
+.thumbnail-gallery img{
+
+width:90px;
+
+height:120px;
+
+object-fit:cover;
+
+cursor:pointer;
+
+border-radius:12px;
+
+transition:.35s;
+
+}
+
+.thumbnail-gallery img:hover{
+
+transform:scale(1.08);
+
+}
+
+.product-info{
+
+flex:1;
+
+}
+
+.collection-label{
+
+letter-spacing:4px;
+
+font-size:12px;
+
+color:#8b7355;
+
+margin-bottom:10px;
+
+}
+
+.product-info h1{
+
+font-size:60px;
+
+margin-bottom:10px;
+
+}
+
+.product-info h2{
+
+font-size:22px;
+
+font-weight:400;
+
+margin-bottom:20px;
+
+}
+
+.price{
+
+font-size:32px;
+
+margin-bottom:30px;
+
+}
+
+.story{
+
+line-height:1.9;
+
+margin-bottom:40px;
+
+max-width:520px;
+
+}
+
+.sizes button,
+
+.lengths button{
+
+padding:12px 22px;
+
+margin:8px;
+
+background:white;
+
+border:1px solid #ddd;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.sizes button:hover,
+
+.lengths button:hover{
+
+background:#111;
+
+color:white;
+
+}
+
+.add-cart{
+
+margin-top:40px;
+
+padding:18px 40px;
+
+background:#111;
+
+color:white;
+
+border:none;
+
+font-size:16px;
+
+cursor:pointer;
+
+letter-spacing:2px;
+
+}
