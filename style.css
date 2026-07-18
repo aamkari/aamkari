@@ -4002,3 +4002,71 @@ text-align:center;
 
 }
 
+
+/* ===========================
+  Footer Journey
+=========================== */
+
+.footer-journey{
+
+margin-top:70px;
+
+padding-top:55px;
+
+border-top:1px solid rgba(0,0,0,.08);
+
+text-align:center;
+
+}
+
+.footer-journey h3{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:34px;
+
+font-weight:400;
+
+margin-bottom:18px;
+
+}
+
+.footer-journey p{
+
+max-width:650px;
+
+margin:auto;
+
+line-height:1.9;
+
+color:#777;
+
+margin-bottom:35px;
+
+}
+
+.footer-instagram-btn{
+
+display:inline-block;
+
+padding:16px 42px;
+
+border:1px solid #111;
+
+text-decoration:none;
+
+color:#111;
+
+letter-spacing:2px;
+
+transition:.35s;
+
+}
+
+.footer-instagram-btn:hover{
+
+background:#111;
+
+color:white;
+
+}
