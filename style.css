@@ -4152,3 +4152,70 @@ color:#666;
 
 }
 
+@media (max-width:768px){
+
+.craft-hero{
+
+display:block;
+
+text-align:center;
+
+max-width:100%;
+
+margin-bottom:60px;
+
+}
+
+.craft-hero h1{
+
+font-size:40px;
+
+line-height:1.2;
+
+margin:20px 0;
+
+}
+
+.craft-intro{
+
+font-size:16px;
+
+line-height:1.8;
+
+max-width:100%;
+
+margin:0 auto;
+
+}
+
+.story-label{
+
+display:block;
+
+text-align:center;
+
+margin-bottom:12px;
+
+}
+
+.craft-block{
+
+margin:60px auto;
+
+}
+
+.craft-block h2{
+
+font-size:32px;
+
+}
+
+.craft-block p{
+
+font-size:16px;
+
+line-height:1.8;
+
+}
+
+}
