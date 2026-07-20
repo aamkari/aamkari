@@ -48,6 +48,38 @@ overflow-x:hidden;
 
 }
 
+.hero {
+   position: relative;
+   overflow: hidden;
+   background: #F8F5F0;
+}
+
+.hero::before {
+   content: "";
+   position: absolute;
+   inset: 0;
+
+   background-image: url("assets/images/hero-watermark.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+
+   opacity: 0.18;
+   z-index: 0;
+}
+
+.hero > * {
+   position: relative;
+   z-index: 1;
+}
+
+
+
+
+
+
+
+
 img{
 
 max-width:100%;
@@ -4582,5 +4614,13 @@ grid-template-columns:1fr;
 .hero-content{
    position: relative;
    z-index: 2;
+}
+
+@media (max-width: 768px) {
+   .hero::before {
+       background-position: center top;
+       background-size: contain;
+       opacity: 0.14;
+   }
 }
 
