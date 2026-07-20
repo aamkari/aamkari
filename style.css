@@ -4504,4 +4504,27 @@ grid-template-columns:1fr;
 
 }
 
+/* ===== Signature Crafts Buttons ===== */
+
+.chapter-btn{
+   display:inline-block;
+   padding:14px 28px;
+   margin-top:20px;
+
+   background:#111111;
+   color:#ffffff !important;
+
+   text-decoration:none;
+   border-radius:40px;
+
+   font-size:15px;
+   font-weight:600;
+
+   transition:0.3s ease;
+}
+
+.chapter-btn:hover{
+   background:#b08d57;
+   color:#ffffff !important;
+}
 
