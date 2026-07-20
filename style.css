@@ -4634,8 +4634,8 @@ grid-template-columns:1fr;
    background-position:center !important;
    background-repeat:no-repeat !important;
 
-   background-color:rgba(255,255,255,0.94);
-   background-blend-mode:soft-light;
+   background-color:rgba(255,255,255,0.75);
+   background-blend-mode:normal;
 
    border-radius:18px;
 
