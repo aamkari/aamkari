@@ -4528,3 +4528,34 @@ grid-template-columns:1fr;
    color:#ffffff !important;
 }
 
+/* ===== Mobile: Chapter 2 Hero ===== */
+
+@media (max-width:768px){
+
+.hands-section{
+   padding:70px 24px 40px;
+   text-align:center;
+}
+
+.hands-section .story-label{
+   letter-spacing:6px;
+   font-size:13px;
+   margin-bottom:18px;
+}
+
+.hands-section h2{
+   font-size:42px;
+   line-height:1.15;
+   max-width:320px;
+   margin:0 auto 24px;
+}
+
+.hands-section .section-intro{
+   max-width:320px;
+   margin:0 auto;
+   font-size:18px;
+   line-height:1.8;
+   color:#666;
+}
+}
+
