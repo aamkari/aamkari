@@ -4370,3 +4370,19 @@ line-height:1.9;
 .discover-btn:hover:visited{
    color:#fff;
 }
+
+.discover-btn{
+   display:inline-block !important;
+   padding:14px 32px !important;
+
+   background:#111 !important;
+   color:#ffffff !important;
+
+   border:2px solid #111 !important;
+   border-radius:40px !important;
+
+   text-decoration:none !important;
+
+   font-size:18px !important;
+   font-weight:600 !important;
+}
