@@ -4332,3 +4332,41 @@ line-height:1.9;
 }
 
 }
+
+/* ===== AAMKARI DISCOVER BUTTON ===== */
+
+.discover-btn{
+   display:inline-flex;
+   align-items:center;
+   justify-content:center;
+
+   padding:14px 34px;
+
+   background:transparent;
+   color:#b7924a;
+
+   border:1px solid #b7924a;
+   border-radius:50px;
+
+   text-decoration:none;
+
+   font-family:'Cormorant Garamond', serif;
+   font-size:18px;
+   font-weight:600;
+
+   transition:all .35s ease;
+}
+
+.discover-btn:hover{
+   background:#b7924a;
+   color:#fff;
+   transform:translateY(-2px);
+}
+
+.discover-btn:visited{
+   color:#b7924a;
+}
+
+.discover-btn:hover:visited{
+   color:#fff;
+}
