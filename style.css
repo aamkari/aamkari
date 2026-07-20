@@ -4559,3 +4559,28 @@ grid-template-columns:1fr;
 }
 }
 
+.hero{
+   position: relative;
+   overflow: hidden;
+}
+
+.hero-watermark{
+   position: absolute;
+   top: 0;
+   left: 0;
+
+   width: 100%;
+   height: 100%;
+
+   object-fit: cover;
+
+   opacity: 0.18;
+
+   z-index: 0;
+}
+
+.hero-content{
+   position: relative;
+   z-index: 2;
+}
+
