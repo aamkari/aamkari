@@ -4671,3 +4671,17 @@ grid-template-columns:1fr;
    box-shadow: 0 18px 40px rgba(0,0,0,.08);
 }
 
+
+
+/* Fix Read Our Story button */
+.hero-actions a{
+   display:flex !important;
+   align-items:center !important;
+   justify-content:center !important;
+   text-align:center !important;
+}
+
+.hero-actions .btn-outline{
+   padding:0 !important;
+}
+
